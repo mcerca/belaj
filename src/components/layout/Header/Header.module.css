@@ -5,6 +5,12 @@
 
   .headerContent {
     min-height: 120px;
+
+    h1 {
+      font-family: "Pinyon Script", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
   
     nav ul {
       display: flex;
