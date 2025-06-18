@@ -9,6 +9,14 @@
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
+.place-content-center { place-content: center; }
+.space-between { justify-content: space-between; }
+.align-items-center { align-items: center; }
+
 body {
   margin: 0;
   min-width: 320px;
@@ -16,7 +24,6 @@ body {
 }
 
 h1 {
-  color: var(--primary-color);
   font-size: 3.2em;
   line-height: 1.1;
 }

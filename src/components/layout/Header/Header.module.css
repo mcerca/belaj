@@ -1,0 +1,14 @@
+.header {
+  color: #fff;
+  min-height: 120px;
+  background-color: var(--primary-color);
+
+  .headerContent {
+    min-height: 120px;
+  
+    nav ul {
+      display: flex;
+      gap: 35px;
+    }
+  }
+}
