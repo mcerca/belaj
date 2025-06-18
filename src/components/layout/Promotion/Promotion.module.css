@@ -1,0 +1,20 @@
+.pitchBar {
+  overflow: hidden;
+  color: rgb(17, 17, 17);
+  background-color: rgb(243, 243, 243);
+}
+
+.pitchBarContainer {
+  min-height: 55px;
+  max-width: 900px;
+  margin: 0px auto;
+  position: relative;
+  overflow: hidden;
+
+  p {
+    text-align: center;
+    line-height: 55px;
+
+    a { font-size: 0.8rem; }
+  }
+}
